@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <title>form filling</title>
+            
+</head>
+<body>
+               <center><h1>Student Form Filling Information</h1></center>
+               <form method="get" action="structure.html">
+               <center>
+               <table border="1"height="200px"width="200px">
+               <tr>
+               <!---Textbox--->
+               <th><label for="name">Full Name:</label></th>
+               <td><input type="text" id="name" placeholder="Enter your name"></td>
+               </tr>
+               <!---Radio Buttons--->
+               <th><label for="gender">Gender:</label></th>
+               <td><input type="radio"id="name"name="gender"value="male">
+                          <label for="male">Male</label><br>
+               <input type="radio"id="name"name="gender"value="female">
+                          <label for="male">Female</label></td><br>
+              </tr>
+              <tr>
+              <!---Check Box--->
+              <th><label>Qualification</label></th>
+              <td><input type="checkbox"id="ssc"name="qulification"value="SSC">
+              <label for="SSC">SSC</label><br>
+              <input type="checkbox"id="hsc"name="qulification"value="HSC">
+              <label for="HSC">HSC</label><br>
+              <input type="checkbox"id="btech"name="qulification"value="BTECH">
+              <label for="BTECH">BTECH</label></td><br>
+              </tr>
+              <tr> 
+              <th><label for="date">Date of birth:</label></th>
+              <td><input type="Date"name="date"placeholder="DD/MM/YYYY"</td>
+              </tr>
+              <tr>
+              <!---Textbox--->
+              <th><label for="password">Password:</label></th>
+              <td><input type="text" id="password" placeholder="Enter your password"></td>
+              </tr>
+              <tr>
+              <!---Textbox--->
+              <th><label for="feedback">Feedback:</label></th>
+              <td><input type="text" id="feedback" placeholder="feedback"></td>
+              </tr>
+              <tr>
+              <td><button>Submit</button></td>
+               <td><button>Reset</button></td>
+              </tr>
+              </table>
+              </center>  
+</body>
+</html>
